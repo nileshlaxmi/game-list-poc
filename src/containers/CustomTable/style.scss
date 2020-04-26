@@ -1,0 +1,39 @@
+@import "../../resources/scss/variables.scss";
+
+.header {
+  padding-top: 1.5rem;
+  font-size: 2rem;
+}
+
+.search-box {
+  padding: 1.5rem;
+  padding-bottom: 2rem;
+  input {
+    padding: $eightpx;
+    border-radius: $fourpx;
+    width: 50%;
+    font-size: 20px;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Edge */
+    opacity: 0.8;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    opacity: 0.8;
+  }
+
+  ::placeholder {
+    opacity: 0.8;
+  }
+
+  img {
+    margin: $fourpx;
+    position: relative;
+    top: $tenpx;
+    height: 24px;
+    width: 24px;
+  }
+}
